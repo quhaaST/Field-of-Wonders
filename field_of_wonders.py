@@ -113,6 +113,7 @@ class Game:
                                 print('На нет и суда нет. Вы получаете 5000 рублей!')
                         elif drum_result == 'Б':
                             self.score = 0
+                            continue
             else:
                 print('К сожалению такой буквы нет.')
                 current_player_id += 1
