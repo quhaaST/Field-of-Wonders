@@ -11,7 +11,7 @@ def clear_console():
 
 # бордер, обозначающий конец хода
 def border():
-    for i in range(130):
+    for i in range(110):
         print('-', end='')
     print()
     sleep(1.5)
@@ -234,6 +234,7 @@ def read_letter():
             show_question()
             sleep(2)
             print('Итак, Ваша буква?')
+            continue
         if len(letter) != 1:
             print('Введите только одну букву!')
         else:
